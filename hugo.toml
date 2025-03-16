@@ -1,0 +1,29 @@
+baseURL = "https://droidzemo.github.io/geminiHugonl/" # Replace with your GitHub Pages URL
+languageCode = "en-us"
+title = "My Terminal Website"
+theme = "terminal"
+
+[params]
+  contentTypeName = "posts"
+  themeStyle = "dark" # or "light"
+  showMenuItems = 3
+  showLanguageSelector = false
+
+[menu]
+  [[menu.main]]
+    identifier = "youtube"
+    name = "YouTube"
+    url = "/youtube/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "knowledgebase"
+    name = "Knowledgebase"
+    url = "/knowledgebase/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "writeups"
+    name = "Writeups"
+    url = "/writeups/"
+    weight = 3
